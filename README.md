@@ -110,12 +110,16 @@
 ## 動作確認環境
 Microsoft Windows10 x64 + .NET Framework 4.8
 
+## ライセンス
 
-## SharpShellについて
+This software is released under the MIT License.   
+詳細については、[LICENSE](./LICENSE) ファイルを参照してください。
 
-本ソフトウェアは SharpShell を使用しています。  
-ライセンスについては SharpShell フォルダ内のLICENSE.mdを確認願います。  
+* SharpShellについて
 
-SharpShell 2.7.2  
-Copyright (c) 2014 Dave Kerr  
-https://github.com/dwmkerr/sharpshell  
+  本ソフトウェアは SharpShell を利用しています。  
+  ライセンスについては SharpShell フォルダ内の[LICENSE.md](./SharpShell/LICENSE.md)を確認願います。  
+
+  SharpShell 2.7.2  
+  Copyright (c) 2014 Dave Kerr  
+  https://github.com/dwmkerr/sharpshell  
