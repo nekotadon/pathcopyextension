@@ -16,7 +16,8 @@ namespace pathcopyextension
     [ComVisible(true)]
     [Guid("210A97C8-A4ED-47E9-825E-7C8FD0CA084C")]
     [COMServerAssociation(AssociationType.AllFilesAndFolders)]
-    public class Class1 : SharpContextMenu
+    //他のSharpShellを使用するソフトウェアとclass名が重複していると正常に機能しない
+    public class ClassNekotadon_pathcopyextension : SharpContextMenu
     {
         private ContextMenuStrip menu = null;
         List<menu_cmd> menu_cmd_lists = new List<menu_cmd>();
